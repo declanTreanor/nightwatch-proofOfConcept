@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="6"
+            failures="1"
+            tests="1">
+
+  <testsuite name="funkeTestEndToEnd"
+    errors="6" failures="1" hostname="" id="" package="funkeTestEndToEnd" skipped="0"
+    tests="1" time="14.52" timestamp="Wed, 01 Mar 2017 08:15:42 GMT">
+  
+    <testcase name="Test: (end-to-end) 27333 - Schweringen - Holtrup - Test" time="14.52" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[data-qa=CONSTRUCTION_POWER]&gt; to be present for 5000 milliseconds.">    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/selectBuildingType.js:4:15)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;input[name=PLZ]&quot; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:5:6)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+ERROR: Unable to locate element: &quot;select[data-qa=addressCity]&quot; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:9:14)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+ERROR: Unable to locate element: &quot;option[value=&quot;Schweringen&quot;]&quot; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:10:6)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+ERROR: Unable to locate element: &quot;select[data-qa=addressCity]&quot; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:14:14)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+ERROR: Unable to locate element: &quot;option[value=&quot;Holtrup&quot;]&quot; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:15:6)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+ERROR: Unable to locate element: &quot;button[data-qa=order-form-link]&quot; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.exports.command (/home/declan/development/nightwatch/proofOfConcept/customCommands/requestPowerInArea.js:16:6)
+    at Object.F.command (/usr/lib/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/usr/lib/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/usr/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/usr/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at Object.queueRunner [as run] (/usr/lib/node_modules/nightwatch/lib/core/queue.js:216:18)
+    at Nightwatch.start (/usr/lib/node_modules/nightwatch/lib/index.js:205:14)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
